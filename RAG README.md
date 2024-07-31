@@ -12,7 +12,7 @@ This project is a web application that allows users to interact with PDF files t
 
 ## Requirements
 
-- **Python 3.8+**
+- **Python 3.9+**
 - **Pip** (Python package manager)
 
 ## Installation
