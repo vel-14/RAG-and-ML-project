@@ -1,4 +1,3 @@
-# For RAG Project 
 streamlit
 google-generativeai
 python-dotenv
@@ -7,10 +6,8 @@ PyMuPDF
 faiss-cpu
 langchain_google_genai
 
-# For Salary Prediction Project
 pandas
 numpy
 seaborn
 matplotlib
 scikit-learn
-
