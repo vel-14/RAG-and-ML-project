@@ -19,7 +19,7 @@ The dataset used in this project is `Employee_Salaries.csv`, which contains info
 ## Data Cleaning
 
 1. **Handling Missing Values**:
-   - Checked for null values and dropped any rows containing null values.
+   - Checked for null values since the null value is less than 1%,  dropped any rows containing null values.
 
 2. **Handling Duplicates**:
    - Identified and dropped duplicate rows. Initial analysis showed more than 5% duplicates which were further investigated and removed to avoid skewing the data.
@@ -73,23 +73,6 @@ The models were evaluated based on the following metrics:
 - **Decision Tree Regressor** showed a higher R2 score for training data, but the R2 score for test data was lower than the Random Forest Regressor.
 - **Random Forest Regressor** provided a good R2 score for both training and test data, indicating better generalization compared to the Decision Tree Regressor.
 
-## Results
-
-Below are the evaluation metrics for the best performing model, Random Forest Regressor:
-
-### Training Data Metrics
-
-- **MSE**: X.XX
-- **RMSE**: X.XX
-- **MAE**: X.XX
-- **R2_Score**: X.XX
-
-### Testing Data Metrics
-
-- **MSE**: X.XX
-- **RMSE**: X.XX
-- **MAE**: X.XX
-- **R2_Score**: X.XX
 
 ## Conclusion
 
